@@ -1,9 +1,7 @@
 // Function to display random images of chapo mayai
 function displayRandomImage() {
     var images = [
-        'path/to/image1.jpg',
-        'path/to/image2.jpg',
-        'path/to/image3.jpg',
+        '/chapo-mayai-random/vitunguu(images)/590_1.jpg'
         // Add more image paths as needed
     ];
 
