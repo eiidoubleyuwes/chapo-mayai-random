@@ -27,5 +27,27 @@
     <h1>Welcome to Chapo Mayai website</h1>
     <img id="randomImage" alt="Chapo mayai images">
     <button onclick="displayRandomImage()">Show more chapo mayai</button>
+
+    <script>
+        // Function to display random images of chapo mayai
+        function displayRandomImage() {
+            var images = [
+                '/chapo-mayai-random/590_1.jpg',
+                // Add more image paths as needed
+            ];
+
+            // Get a random index
+            var randomIndex = Math.floor(Math.random() * images.length);
+
+            // Get the image element by its ID
+            var imageElement = document.getElementById('randomImage');
+
+            // Set the source attribute of the image element to display the random image
+            imageElement.src = images[randomIndex];
+        }
+
+        // Call the function initially to display a random image when the page loads
+        displayRandomImage();
+    </script>
 </body>
 </html>
