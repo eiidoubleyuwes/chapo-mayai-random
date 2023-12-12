@@ -1,5 +1,3 @@
-// script.js
-
 function handleImageUpload() {
     const imageInput = document.getElementById('imageInput');
     const randomImage = document.getElementById('randomImage');
@@ -22,8 +20,7 @@ function displayRandomImage() {
         'vitunguu(images)/590_1.jpg',
         'vitunguu(images)/chapatti-mayai-recipe-main-photo.jpg',
         'vitunguu(images)/download.jpeg',
-        'vitunguu(images)/chapo-mayai-recipe-step-7-photo.jpg'
-        // Add more image paths as needed
+        'vitunguu(images)/chapo-mayai-recipe-step-7-photo.jpg',
     ];
 
     // Get a random index
@@ -35,3 +32,5 @@ function displayRandomImage() {
     // Set the source attribute of the image element to display the random image
     imageElement.src = images[randomIndex];
 }
+// Call the function initially to display a random image when the page loads
+displayRandomImage();

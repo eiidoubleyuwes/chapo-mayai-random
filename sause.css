@@ -13,8 +13,11 @@ h1 {
 }
 
 img {
-    max-width: 100%; /* Adjust the size as needed */
-    max-height: 100vh;
+    max-width: 80%; /* Adjust the size as needed */
+    max-height: 80vh;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 button {
