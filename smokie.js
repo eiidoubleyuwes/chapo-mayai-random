@@ -1,7 +1,10 @@
  // Function to display random images of chapo mayai
  function displayRandomImage() {
     var images = [
-        'vitunguu(images)/chapo-mayai-recipe-step-7-photo.jpg'
+        'smocha(images)/download (1).jpeg',
+        'smocha(images)/download.jpeg',
+        'smocha(images)/download (2).jpeg',
+        'smocha(images)/download3.jpeg',
     ];
 
     // Get a random index
